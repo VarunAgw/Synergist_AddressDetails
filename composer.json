@@ -1,0 +1,9 @@
+{
+    "require": {
+        "dflydev/dot-access-data": "^2.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    }
+}
