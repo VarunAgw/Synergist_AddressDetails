@@ -5,5 +5,11 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "VarunAgw\\Maps\\": "plugins/varunagw/maps/src/",
+            "VarunAgw\\Framework\\": "plugins/varunagw/framework/src/"
+        }
     }
 }

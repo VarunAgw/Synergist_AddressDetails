@@ -1,0 +1,10 @@
+<phpunit bootstrap="vendor/autoload.php">
+  <testsuites>
+    <testsuite name="varunagw_maps">
+      <directory>plugins/varunagw/maps/tests</directory>
+    </testsuite>
+    <testsuite name="varunagw_framework">
+      <directory>plugins/varunagw/framework/tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
